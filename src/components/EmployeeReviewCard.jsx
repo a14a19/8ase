@@ -5,10 +5,14 @@ export default function EmployeeReviewCard() {
    return (
       <>
          <div className="flex space-x-4 h-[25rem] overflow-x-auto w-[140rem]">
-            {EmployeeReviewsData.map((review, reviewIndex) => (
+            {EmployeeReviewsData.map((data, index) => (
                <div
-                  className="flex flex-col border rounded-2xl p-6 w-[140rem]"
-                  key={reviewIndex}
+                  className={`flex flex-col border rounded-2xl p-6 w-[140rem] ${
+                     index % 2 === 0
+                        ? "bg-lightgreen"
+                        : "bg-darkgreen text-white"
+                  }`}
+                  key={index}
                >
                   <div class="flex">
                      <svg
@@ -58,12 +62,18 @@ export default function EmployeeReviewCard() {
                      </svg>
                   </div>
                   <div className="flex text-2xl text-left mt-8">
-                     {review.review}
+                     {data.review}
                   </div>
                   <div className="flex flex-grow items-end">
                      <button className="mt-auto">
-                        <p className="border rounded-3xl p-4">
-                           {review.employee}
+                        <p
+                           className={`border rounded-full p-4 ${
+                              index % 2 === 0
+                                 ? "border-darkgreen"
+                                 : "text-white"
+                           }`}
+                        >
+                           {data.employee}
                         </p>
                      </button>
                   </div>
