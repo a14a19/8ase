@@ -9,7 +9,7 @@ export default function EmployeeReviewCard() {
                <div
                   className={`flex flex-col border rounded-2xl p-6 w-[140rem] ${
                      index % 2 === 0
-                        ? "bg-lightgreen"
+                        ? "bg-lightgreen text-darkgreen"
                         : "bg-darkgreen text-white"
                   }`}
                   key={index}
