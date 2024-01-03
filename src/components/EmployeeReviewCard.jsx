@@ -67,7 +67,7 @@ export default function EmployeeReviewCard() {
                   <div className="flex flex-grow items-end">
                      <button className="mt-auto">
                         <p
-                           className={`border rounded-full p-4 ${
+                           className={`border rounded-full p-2 pl-4 pr-4 ${
                               index % 2 === 0
                                  ? "border-darkgreen"
                                  : "text-white"
