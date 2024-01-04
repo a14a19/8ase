@@ -9,9 +9,11 @@ module.exports = withMT({
       ],
   theme: {
     extend: {
-      colors:{
-        
-      }
+      colors: {
+        'greenstar': '#44bb89',
+        'darkgreen': '#1f553e',
+        'lightgreen': '#eef9f4',
+      },
     },
   },
   plugins: [],
