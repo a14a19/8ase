@@ -42,10 +42,15 @@ function EngineeringCompany() {
                 </div>
 
             </div>
-
         </div>
 
-
-    );
+        <div className="basis-2/3">
+          <div className="md:shrink-0 flex items-center md:ml-12">
+            <img className="rounded-lg " src={gal1} alt="Energized Community" />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }
-export default EngineeringCompany;
+export default EngineeringCompany

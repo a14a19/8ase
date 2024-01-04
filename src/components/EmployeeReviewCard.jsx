@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { EmployeeReviewsData } from "../data/EmployeeReviews";
 
 export default function EmployeeReviewCard() {
+  
    const [currentSlide, setCurrentSlide] = useState(0);
 
    const handlePrevSlide = () => {
