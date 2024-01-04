@@ -5,6 +5,7 @@ import Hire8ase from "./Hire8ase";
 import Main from "./Main";
 import { Routes, Route } from "react-router-dom";
 
+
 export default function Home() {
 
    return (
