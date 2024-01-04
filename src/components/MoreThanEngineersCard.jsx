@@ -5,7 +5,7 @@ const MoreThanEngineersCard = ({ title, description, image }) => {
       <h2 className="text-white text-3xl xl:text-4xl uppercase font-[900] px-12 py-10 text-wrap">
         {title}
       </h2>
-      <p className="text-gray-600 text-2xl xl:text-2xl px-12 font-medium">
+      <p className="text-gray-600 text-xl xl:text-2xl px-12 font-medium leading-normal">
         {description}
       </p>
     </div>
