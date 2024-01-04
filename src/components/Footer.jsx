@@ -62,8 +62,7 @@ export default function Footer() {
                         variant="small"
                         className="mb-4 text-center font-normal text-[#8f8f8f] md:mb-0"
                     >
-                        &copy; {currentYear} <a href="https://material-tailwind.com/">Material Tailwind</a>. All
-                        Rights Reserved.
+                        &copy; {currentYear} All Rights Reserved.
                     </Typography>
                     {/* <div className="flex gap-4 text-[#8f8f8f] sm:justify-center">
                         <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">

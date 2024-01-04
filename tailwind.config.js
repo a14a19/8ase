@@ -8,7 +8,13 @@ module.exports = withMT({
         "./src/**/*.{js,ts,jsx,tsx}",
       ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'greenstar': '#44bb89',
+        'darkgreen': '#1f553e',
+        'lightgreen': '#eef9f4',
+      },
+    },
   },
   plugins: [],
 });
