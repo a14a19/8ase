@@ -1,8 +1,8 @@
 export default function ScaleYourTeam() {
    return (
       <>
-         <div className="flex justify-center mt-48 mb-4 text-center">
-            <div className="text-6xl font-extrabold">
+         <div className="flex justify-center mt-16 mb-4 text-center sm:mt-48">
+            <div className="text-4xl font-extrabold sm:text-6xl">
                SCALE YOUR TEAM <br /> WITH SENIOR ENGINEERS <br /> FOR{" "}
                <span className="text-greenstar">LASTING SUCCESS.</span>
             </div>
