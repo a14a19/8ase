@@ -9,8 +9,8 @@ function Main() {
         <>
             <Hero title={heroSectionHomeData.title} subTitle={heroSectionHomeData.subtitle} bgImg={heroSectionHomeData.backgroundImg} clientTitle={heroSectionHomeData.clientsTitle} />
             <MoreThanEngineers />
-            <EngineeringCompany />
-            <EmployeeReviews />
+            {/* <EngineeringCompany />
+            <EmployeeReviews /> */}
         </>
     )
 }

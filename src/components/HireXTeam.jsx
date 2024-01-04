@@ -23,7 +23,7 @@ function HireXTeam() {
     };
 
     return (
-        <div>
+        <div className="mt-20">
             <div className="pt-9 justify-center">
                 <h1 className="text-black font-['Inter'] tracking-tighter text-left md:text-center font-extrabold border-none text-5xl md:text-6xl mb-5 md:mb-10 px-4 md:px-10">LETS SCALE YOUR ENGINEERING TEAM.</h1>
             </div>
