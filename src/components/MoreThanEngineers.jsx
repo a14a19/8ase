@@ -9,7 +9,7 @@ const MoreThanEngineers = () => {
         <span>.</span>
       </h1>
       <div className="w-full h-auto flex items-center justify-center">
-        <div className="flex flex-col items-center justify-center lg:grid lg:grid-cols-2 lg:place-items-center gap-6 px-8 md:px-24 lg:px-36 xl:px-52">
+        <div className="flex flex-col items-center justify-center lg:grid lg:grid-cols-2 lg:place-items-center gap-6 max-w-7xl mx-12">
           {data.map((card) => (
             <MoreThanEngineersCard
               key={card.id}
