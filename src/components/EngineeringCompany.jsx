@@ -1,8 +1,10 @@
 import gal1 from '../assets/Gr.webp';
+import { useNavigate, Link } from 'react-router-dom';
+
 
 function EngineeringCompany() {
     return (
-        <div class=""> 
+        <div class="py-8">
             <div>
                 <div class="font-['Inter'] tracking-tighter text-left md:text-center font-extrabold border-none text-5xl md:text-6xl mb-5 md:mb-10 px-4 md:px-10">
                     <span class="text-[#44bb89]">GLASSDOOR'S MOST LOVED</span>
@@ -21,9 +23,13 @@ function EngineeringCompany() {
                         <p class="mt-5"> "Our thriving culture and continuous investment in our community ensures your team is driven, highly motivated, and ready to propel your projects forward."</p>
                     </div>
                     <div class="flex justify-center items-center md:justify-start md:items-start">
-                        <button class="px-24 py-3 md:px-5 md:py-2 text-base md:text-lg text-white font-semibold bg-black rounded-full border border-black-200 hover:text-black hover:bg-white hover:border-black focus:outline-none focus:ring-2 focus:ring-black-600 focus:ring-offset-2" >
-                            <span>Hire 8ase-Team</span>
-                        </button>
+                        <Link to="/HireXTeam">
+                            <button class="px-24 py-3 md:px-5 md:py-2 text-base md:text-lg text-white font-semibold bg-black rounded-full border border-black-200 hover:text-black hover:bg-white hover:border-black focus:outline-none focus:ring-2 focus:ring-black-600 focus:ring-offset-2" >
+                                <span>Hire 8ase-Team</span>
+                            </button>
+
+                        </Link>
+
                     </div>
 
                 </div>
