@@ -3,8 +3,8 @@ import { MoreThanEngineersData as data } from "../data/MoreThanEngineers"
 
 const MoreThanEngineers = () => {
   return (
-    <section className="w-full mb-20">
-      <h1 className="text-center text-[#0c0c0c] text-[48px] xl:text-[68px] font-[900] my-16">
+    <section className="w-full my-40">
+      <h1 className="text-center text-[#0c0c0c] text-[48px] xl:text-[68px] font-[900] mb-24">
         MORE THAN JUST <span className="text-[#6052CD]">ENGINEERS</span>
         <span>.</span>
       </h1>
