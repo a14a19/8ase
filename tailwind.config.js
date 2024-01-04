@@ -13,6 +13,7 @@ module.exports = withMT({
         'greenstar': '#44bb89',
         'darkgreen': '#1f553e',
         'lightgreen': '#eef9f4',
+        'greyscale': '#707070',
       },
     },
   },
