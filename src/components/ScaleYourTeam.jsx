@@ -7,8 +7,8 @@ export default function ScaleYourTeam() {
                <span className="text-greenstar">LASTING SUCCESS.</span>
             </div>
          </div>
-         <div className="grid items-center w-full grid-cols-2 grid-rows-3 gap-8 border p-28">
-            <div className="flex border h-[25rem] justify-center w-[70%] text-2xl font-medium">
+         <div className="grid items-center w-full grid-cols-2 grid-rows-3 gap-4 border p-28">
+            <div className="flex border h-[25rem] w-full text-2xl font-medium">
                <div className="flex flex-col justify-center w-full p-12 border text-greyscale">
                   <span className="text-4xl font-extrabold text-black">
                      FLEXIBLE SCALING.
