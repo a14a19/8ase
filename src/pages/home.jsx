@@ -1,12 +1,13 @@
-import EmployeeReviews from "../components/EmployeeReviews";
-import EngineeringCompany from "../components/EngineeringCompany";
+import EmployeeReviews from "../components/EmployeeReviews"
+import EngineeringCompany from "../components/EngineeringCompany"
+import MoreThanEngineers from "../components/MoreThanEngineers"
 
 export default function Home() {
-   return (
-      <>
-         <EngineeringCompany />
-         <EmployeeReviews />
-
-      </>
-   );
+  return (
+    <>
+      <MoreThanEngineers />
+      <EngineeringCompany />
+      <EmployeeReviews />
+    </>
+  )
 }
