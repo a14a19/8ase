@@ -1,22 +1,20 @@
-import EmployeeReviews from "../components/EmployeeReviews";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
-import MoreThanEngineers from "../components/MoreThanEngineers"
-import { heroSectionHomeData } from "../data/heroSection";
-import EngineeringCompany from "../components/EngineeringCompany";
-
-
+import ForEngg from "./ForEngg";
+import Hire8ase from "./Hire8ase";
+import Main from "./Main";
+import { Routes, Route } from "react-router-dom";
 
 export default function Home() {
 
    return (
       <>
          <Header />
-         <Hero title={heroSectionHomeData.title} subTitle={heroSectionHomeData.subtitle} bgImg={heroSectionHomeData.backgroundImg} clientTitle={heroSectionHomeData.clientsTitle} />
-         <MoreThanEngineers />    
-         <EngineeringCompany />
-         <EmployeeReviews />
+         <Routes>
+            <Route exact path="/" element={<Main />} />
+            <Route exact path="/engineers" element={<ForEngg />} />
+            <Route exact path="/hire-8ase" element={<Hire8ase />} />
+         </Routes>
          <Footer />
       </>
    );
