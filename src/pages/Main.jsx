@@ -14,8 +14,8 @@ function Main() {
             bgImg={heroSectionHomeData.backgroundImg}
             clientTitle={heroSectionHomeData.clientsTitle}
          />
-         <MoreThanEngineers />
          <ScaleYourTeam />
+         <MoreThanEngineers />
          {/* <EngineeringCompany />
             <EmployeeReviews /> */}
       </>
