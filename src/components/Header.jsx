@@ -27,9 +27,9 @@ export default function Header() {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#" className="uppercase flex items-center">
+                <Link to="/engineers" className="uppercase flex items-center">
                     for engineers
-                </a>
+                </Link>
             </Typography>
             {/* <Typography
                 as="li"
@@ -68,13 +68,15 @@ export default function Header() {
                     <div className="flex items-center gap-4">
                         <div className="mr-4 hidden lg:block">{navList}</div>
                         <div className="flex items-center gap-x-1">
-                            <Button
-                                variant="filled"
-                                size="sm"
-                                className="hidden lg:inline-block rounded-[2rem] text-sm font-light px-6 py-3"
-                            >
-                                <span>&rarr; HIRE 8ase</span>
-                            </Button>
+                            <Link to="/hire-8ase">
+                                <Button
+                                    variant="filled"
+                                    size="sm"
+                                    className="hidden lg:inline-block rounded-[2rem] text-sm font-light px-6 py-3"
+                                >
+                                    <span>&rarr; HIRE 8ase</span>
+                                </Button>
+                            </Link>
                         </div>
                         <IconButton
                             variant="text"
@@ -117,11 +119,11 @@ export default function Header() {
                 </div>
                 <MobileNav open={openNav}>
                     {navList}
-                    <div className="flex items-center gap-x-1">
+                    {/* <div className="flex items-center gap-x-1">
                         <Button fullWidth variant="filled" size="sm" className="">
                             <span>Sign in</span>
                         </Button>
-                    </div>
+                    </div> */}
                 </MobileNav>
             </Navbar>
         </header>
