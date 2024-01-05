@@ -7,7 +7,7 @@ export default function ScaleYourTeam() {
                <span className="text-greenstar">LASTING SUCCESS.</span>
             </div>
          </div>
-         <div className="grid items-center w-full grid-cols-2 grid-rows-3 gap-x-4 gap-y-48 p-28">
+         <div className="grid items-center w-full grid-cols-2 grid-rows-2 gap-x-4 gap-y-48 p-28">
             <div className="flex h-[25rem] w-full text-2xl font-medium">
                <div className="flex flex-col justify-center w-full p-12 text-greyscale">
                   <span className="text-4xl font-extrabold text-black">
