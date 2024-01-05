@@ -1,14 +1,14 @@
 export default function ScaleYourTeam() {
    return (
       <>
-         <div className="flex justify-center mt-16 mb-4 text-center sm:mt-48">
-            <div className="text-4xl font-extrabold sm:text-6xl">
+         <div className="justify-center mt-16 mb-4 text-center sm:flex sm:mt-48">
+            <div className="text-5xl font-extrabold sm:text-6xl">
                SCALE YOUR TEAM <br /> WITH SENIOR ENGINEERS <br /> FOR{" "}
                <span className="text-greenstar">LASTING SUCCESS.</span>
             </div>
          </div>
-         <div className="grid items-center w-full grid-cols-2 grid-rows-2 gap-x-4 gap-y-48 p-28">
-            <div className="flex h-[25rem] w-full text-2xl font-medium">
+         <div className="flex flex-col items-center w-full grid-rows-2 sm:grid-cols-2 sm:grid gap-x-4 gap-y-48 sm:p-28">
+            <div className="flex h-[25rem] w-full text-lg sm:text-2xl font-medium">
                <div className="flex flex-col justify-center w-full p-12 text-greyscale">
                   <span className="text-4xl font-extrabold text-black">
                      FLEXIBLE SCALING.
