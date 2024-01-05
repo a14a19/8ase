@@ -13,19 +13,27 @@ export default function ScaleYourTeam() {
                   <span className="text-4xl font-extrabold text-black">
                      FLEXIBLE SCALING.
                   </span>{" "}
-                  <br /> Ramp your team up or down with on-demand engineers. We
-                  make scaling simple with flexible contracts and monthly
-                  billing.
+                  <br /> Effortlessly expand or contract your team with flexible
+                  engineers. Simplify scaling through adaptable contracts and
+                  monthly billing.
                   <button className="w-1/2 p-4 mt-10 text-white bg-black border rounded-full">
                      HIRE 8ASE
                   </button>
                </div>
             </div>
             <div className="flex h-[25rem] w-full justify-center">
-               <img className="w-full rounded-xl" src="/8ase.png" alt="Logo" />
+               <img
+                  className="w-full rounded-xl"
+                  src="/flexible-scaling.png"
+                  alt="Three People on Computer"
+               />
             </div>
             <div className="flex h-[25rem] w-full justify-center">
-               <img className="w-full rounded-xl" src="/8ase.png" alt="Logo" />
+               <img
+                  className="w-full rounded-xl"
+                  src="/people-computers.png"
+                  alt="People and Computers"
+               />
             </div>
 
             <div className="flex h-[25rem] w-full text-2xl font-medium">
@@ -33,9 +41,13 @@ export default function ScaleYourTeam() {
                   <span className="text-4xl font-extrabold text-black">
                      PERFECT MATCHING.
                   </span>{" "}
-                  <br /> X-Team ensures the ideal engineering match, culturally
-                  and technically, through our rigorous vetting. Trust our
-                  handpicked candidates and focus on what truly matters.
+                  <br />
+                  Welcome to 8ase – Crafting Engineering Synergy Tailored Just
+                  for You! Immerse yourself in the assurance of our meticulous
+                  vetting process, guaranteeing candidates who align seamlessly
+                  with your culture and technical needs. Rely on our curated
+                  talent pool, allowing you to concentrate on what truly drives
+                  your success.
                   <button className="w-1/2 p-4 mt-10 text-white bg-black border rounded-full">
                      HIRE 8ASE
                   </button>
