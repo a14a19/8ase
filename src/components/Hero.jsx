@@ -11,8 +11,8 @@ export default function Hero({ title, subTitle, bgImg, clientTitle }) {
                     <h1 className="md:text-7xl text-3xl font-black uppercase">{title}</h1>
                     <h3 className="md:text-2xl text-xl md:mx-20 mx-0">{subTitle}</h3>
                     <div className="flex justify-center items-center gap-8 flex-col md:flex-row">
-                        <Link to="/hire-8ase" className="uppercase bg-white hover:bg-[#ffffffde] text-black border border-white px-20 py-4 rounded-[2rem] md:text-base text-sm text-center font-semibold md:w-[45%] w-full whitespace-nowrap">Hire 8ase</Link>
-                        <button className="uppercase bg-transparent hover:bg-[#ffffff10] text-white border border-white px-20 py-4 rounded-[2rem] md:text-base text-sm font-semibold md:w-[45%] w-full whitespace-nowrap">Learn more</button>
+                        <Link to="/hire-8ase" className="uppercase bg-white hover:bg-[#ffffffde] text-black border border-white px-20 py-4 rounded-[2rem] md:text-base text-sm text-center font-semibold md:w-[45%] w-full whitespace-nowrap ease-in-out duration-300">Hire 8ase</Link>
+                        <button className="uppercase bg-transparent hover:bg-[#ffffff10] text-white border border-white px-20 py-4 rounded-[2rem] md:text-base text-sm font-semibold md:w-[45%] w-full whitespace-nowrap ease-in-out duration-300">Learn more</button>
                     </div>
                 </div>
                 <div className="">

@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import MoreThanEngineers from "../components/MoreThanEngineers";
 import { heroSectionHomeData } from "../data/heroSection";
 import ScaleYourTeam from "../components/ScaleYourTeam";
+import SubFooter from "../components/SubFooter"
 
 function Main() {
    return (
@@ -16,6 +17,7 @@ function Main() {
          />
          <ScaleYourTeam />
          <MoreThanEngineers />
+         <SubFooter />
          {/* <EngineeringCompany />
             <EmployeeReviews /> */}
       </>

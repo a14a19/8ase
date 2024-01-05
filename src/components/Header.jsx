@@ -6,11 +6,32 @@ import {
     IconButton,
     Collapse
 } from "@material-tailwind/react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import baseIcon from "../assets/8ase.png";
 
 export default function Header() {
     const [openNav, setOpenNav] = React.useState(false);
+    const [currentPage, setCurrentPage] = React.useState(false)
+    const location = useLocation()
+
+    const handleClick = () => {
+        if (location.pathname === "/") {
+            setCurrentPage(true)
+            setTimeout(() => {
+                setCurrentPage(false)
+            }, 0)
+        }
+    }
+
+    React.useLayoutEffect(() => {
+
+        return () => window.scrollTo({
+            top: 0,
+            opacity: 0,
+            behavior: "smooth",
+        });
+
+    }, [currentPage])
 
     React.useEffect(() => {
         window.addEventListener(
@@ -61,6 +82,7 @@ export default function Header() {
                     <Typography
                         as={Link}
                         to="/"
+                        onClick={() => handleClick()}
                         className="mr-4 cursor-pointer py-1.5 font-medium"
                     >
                         <img src={baseIcon} alt="" className="h-10 aspect-square rounded-lg" />
