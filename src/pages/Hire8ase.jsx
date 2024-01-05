@@ -1,9 +1,9 @@
-import HireXTeam from "../components/HireXTeam"
+import HireBaseTeam from "../components/HireBaseTeam"
 
 function Hire8ase() {
     return (
         <>
-            <HireXTeam />
+            <HireBaseTeam />
         </>
     )
 }
