@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function SubFooter() {
     return (
         <aside className="flex items-center justify-center flex-col md:py-24 py-10">
-            <h2 className="text-center md:text-5xl sm:text-2xl text-xl md:font-extrabold font-bold bg-clip-text" style={{ backgroundImage: "linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(0,0,0) 60%)", lineHeight: "inherit", WebkitTextFillColor: "transparent" }}>Team Up for Triumph!</h2>
+            <h2 className="text-center md:text-5xl sm:text-2xl text-xl md:font-extrabold font-bold bg-clip-text" style={{ lineHeight: "inherit" }}>Team Up for Triumph!</h2>
             <Link to="/hire-8ase" className="">
                 <button
                     className="bg-black text-white hidden lg:flex items-center justify-center rounded-[2rem] text-sm font-light px-6 py-3 mt-5 hover:-translate-y-2 hover:shadow-[0px_3px_10px_black] hover:bg-white hover:text-black ease-in-out duration-300 group"
