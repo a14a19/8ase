@@ -178,13 +178,13 @@ function HireBaseTeam() {
                             </button>
                         </div>
 
-                        <div className="flex flex-row mt-6 lg:mt-0 overflow-hidden items-stretch">
+                        {/* <div className="flex flex-row mt-6 lg:mt-0 overflow-hidden items-stretch">
                             <img className="rounded-lg mx-0 lg:mx-8 h-20 w-20 filter grayscale drop-shadow-md" src={logo1} alt="Client Logo1" />
                             <img className="rounded-lg mx-8 h-20 w-20 filter grayscale drop-shadow-md" src={logo2} alt="Client Logo2" />
                             <img className="rounded-lg mx-8 h-20 w-20 filter grayscale drop-shadow-md" src={logo3} alt="Client Logo3" />
                             <img className="rounded-lg mx-8 h-20 w-20 filter grayscale drop-shadow-md" src={logo4} alt="Client Logo4" />
                             <img className="rounded-lg mx-8 h-20 w-20 filter grayscale drop-shadow-md lg:mr-0" src={logo5} alt="Client Logo5" />
-                        </div>
+                        </div> */}
 
                     </div>
 

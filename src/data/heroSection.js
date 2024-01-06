@@ -1,15 +1,22 @@
-import heroImage from "../assets/heroImg.webp";
-import worko from "../assets/client-logo/Worko.jpg";
-import bankiy from "../assets/client-logo/bankiy.jpeg";
-import bold from "../assets/client-logo/bold.jpeg";
-import nake from "../assets/client-logo/nake.jpeg";
-import famwork from "../assets/client-logo/famwork.jpeg";
+import heroImage from "../assets/heroImg2.jpg";
+import react from "../assets/icons/react.svg"
+import node from "../assets/icons/node.svg"
+import javascript from "../assets/icons/javascript.svg"
+import github from "../assets/icons/github.svg"
+import notion from "../assets/icons/notion.svg"
+import slack from "../assets/icons/slack.svg"
+import aws from "../assets/icons/aws.svg"
+import docker from "../assets/icons/docker.svg"
+import python from "../assets/icons/python.svg"
+import figma from "../assets/icons/figma.svg"
+import graphql from "../assets/icons/graphql.svg"
+import swift from "../assets/icons/swift.svg"
 
 export const heroSectionHomeData = {
     title: "Elite engineers fueling global brands.",
     subtitle: "Empowering top brands with agile, high-performing software teams — courtesy of 8ASE.",
     backgroundImg: heroImage,
-    clientsTitle: "TRUSTED BY LEADING BRANDS",
+    clientsTitle: "WE USE LEADING TECH",
 }
 
 export const heroSectionEnggData = {
@@ -19,25 +26,149 @@ export const heroSectionEnggData = {
     clientsTitle: "TRUSTED BY LEADING BRANDS",
 }
 
-export const clientLogo = [
+export const techLogo = [
     {
-        img: worko,
-        name: "worko",
+        img: github,
+        name: "github",
     },
     {
-        img: bankiy,
-        name: "bankiy",
+        img: javascript,
+        name: "javascript",
     },
     {
-        img: bold,
-        name: "bold",
+        img: react,
+        name: "react",
     },
     {
-        img: nake,
-        name: "nake",
+        img: node,
+        name: "node",
     },
     {
-        img: famwork,
-        name: "famwork",
+        img: python,
+        name: "python",
+    },
+    {
+        img: graphql,
+        name: "graphql",
+    },
+    {
+        img: aws,
+        name: "aws",
+    },
+    {
+        img: docker,
+        name: "docker",
+    },
+    {
+        img: swift,
+        name: "swift",
+    },
+    {
+        img: figma,
+        name: "figma",
+    },
+    {
+        img: notion,
+        name: "notion",
+    },
+    {
+        img: slack,
+        name: "slack",
+    },
+    {
+        img: github,
+        name: "github",
+    },
+    {
+        img: javascript,
+        name: "javascript",
+    },
+    {
+        img: react,
+        name: "react",
+    },
+    {
+        img: node,
+        name: "node",
+    },
+    {
+        img: python,
+        name: "python",
+    },
+    {
+        img: graphql,
+        name: "graphql",
+    },
+    {
+        img: aws,
+        name: "aws",
+    },
+    {
+        img: docker,
+        name: "docker",
+    },
+    {
+        img: swift,
+        name: "swift",
+    },
+    {
+        img: figma,
+        name: "figma",
+    },
+    {
+        img: notion,
+        name: "notion",
+    },
+    {
+        img: slack,
+        name: "slack",
+    },
+    {
+        img: github,
+        name: "github",
+    },
+    {
+        img: javascript,
+        name: "javascript",
+    },
+    {
+        img: react,
+        name: "react",
+    },
+    {
+        img: node,
+        name: "node",
+    },
+    {
+        img: python,
+        name: "python",
+    },
+    {
+        img: graphql,
+        name: "graphql",
+    },
+    {
+        img: aws,
+        name: "aws",
+    },
+    {
+        img: docker,
+        name: "docker",
+    },
+    {
+        img: swift,
+        name: "swift",
+    },
+    {
+        img: figma,
+        name: "figma",
+    },
+    {
+        img: notion,
+        name: "notion",
+    },
+    {
+        img: slack,
+        name: "slack",
     },
 ]

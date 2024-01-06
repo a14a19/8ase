@@ -16,3 +16,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.slider ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  width: max-content;
+  animation: runSlider 55s linear infinite;
+}
+.slider li {
+}
+.slider {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(90deg, #0000, #000 10% 90%, #0000);
+}
+@keyframes runSlider {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-165px * 15));
+  }
+}
