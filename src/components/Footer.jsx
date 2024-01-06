@@ -66,8 +66,8 @@ export default function Footer() {
                             onClick={() => handleClick()}
                             className="flex items-center justify-start mb-4 font-normal text-[#8f8f8f] md:mb-0"
                         >
-                            <img src={baseIcon} alt="" className="h-9 aspect-square rounded-lg" />
-                            <span className="text-white text-3xl font-black">ASE</span>
+                            <img src={baseIcon} alt="" className="h-14 aspect-square rounded-lg" />
+                            {/* <span className="text-white text-3xl font-black">ASE</span> */}
                         </Typography>
                     </div>
                     {SITEMAP.map(({ title, links }, key) => (
@@ -101,7 +101,7 @@ export default function Footer() {
                         variant="small"
                         className="mb-4 text-center font-normal text-[#8f8f8f] md:mb-0"
                     >
-                        &copy; {currentYear} All Rights Reserved.
+                        &copy; {currentYear} 8ASE Inc. All Rights Reserved.
                     </Typography>
                 </div>
             </div>

@@ -83,9 +83,10 @@ export default function Header() {
                         as={Link}
                         to="/"
                         onClick={() => handleClick()}
-                        className="mr-4 cursor-pointer py-1.5 font-medium"
+                        className="mr-4 cursor-pointer flex items-center py-1.5 font-medium"
                     >
                         <img src={baseIcon} alt="" className="h-10 aspect-square rounded-lg" />
+                        <h4 className="text-black text-2xl italic font-black ms-1 subpixel-antialiased">8ASE</h4>
                     </Typography>
                     <div className="flex items-center gap-4">
                         <div className="mr-4 hidden lg:block">{navList}</div>
