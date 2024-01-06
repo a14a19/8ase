@@ -25,7 +25,7 @@ const SITEMAP = [
 
 
 // const currentYear = new Date().getFullYear();
-const currentYear = "2021";
+const currentYear = "2024";
 
 
 
